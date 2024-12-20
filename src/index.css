@@ -1,0 +1,30 @@
+
+
+:root{
+  /*TEXT SIZE*/
+  --txt-preset-1: 24px;
+  --txt-preset-2: 16px;
+  --txt-preset-3: 14px;
+
+  /*COLORS*/
+
+  --darkBlue: #334253;
+  --grayishBlue: #67727E;
+  --veryLightGray: #F5F6FA;
+  --lightGray: #E9EBF0;
+  --white: #FFFFFF;
+  --moderateBlue: #5357B6;
+  --lightGrayishBlue: #C5C6EF;
+  --softRed: #ED6368;
+  --paleRed: #FFB8BB;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  body{
+    height: 100vh;
+  }
+}
