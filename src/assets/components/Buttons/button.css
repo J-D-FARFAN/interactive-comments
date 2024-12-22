@@ -1,0 +1,17 @@
+@import url(../../../index.css);
+
+.btn{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: var(--moderateBlue);
+    color: var(--white);
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: .2s ease-in-out;
+
+    &:hover{background-color: var(--lightGrayishBlue);}
+}

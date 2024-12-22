@@ -1,0 +1,123 @@
+@import url(../../../index.css);
+
+
+.content__allCardComments{
+    display: flex;
+    gap: 20px;
+    background-color: var(--white);
+    padding: 1rem;
+    border-radius: 8px;
+
+    .bx-btns-controlsScore {
+        width: fit-content;
+        height: 100px;
+        border-radius: 10px;
+        padding: 1rem;
+        background-color: var(--veryLightGray);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        .bx-iconControlScore {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 15px;
+            height: 15px;
+            cursor: pointer;
+
+            .stylesIconsControlScore {
+                color: var(--lightGrayishBlue);
+                transition: .3s ease-in-out;
+            }
+
+            &:hover {
+                .stylesIconsControlScore {
+                    color: var(--moderateBlue);
+                }
+            }
+        }
+
+        .score {
+            font-weight: bolder;
+            color: var(--moderateBlue);
+        }
+    }
+
+
+    .bx-sectionComments {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 22px;
+
+        .bx-infoUserComment {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .infoUserComment {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+
+                .bx-avatar {
+                    width: 32px;
+                    height: 32px;
+                    border-radius: 50%;
+
+                    .avatar {
+                        width: 100%;
+                    }
+                }
+
+                .userName {
+                    font-weight: bolder;
+                    color: var(--darkBlue);
+                    font-size: var(--txt-preset-2);
+                }
+
+                .userMe{
+                    display: block;
+                    color: var(--white);
+                    background-color: var(--moderateBlue);
+                    padding: 0.09rem 0.6rem;
+                    border-radius: 2px;
+                    font-size: var(--txt-preset-3);
+                    font-weight: bold;
+                }
+
+                .createComment {
+                    color: var(--grayishBlue);
+                    font-size: var(--txt-preset-2);
+                }
+            }
+
+            .bx-replyComment {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                color: var(--moderateBlue);
+                cursor: pointer;
+                transition: .2s ease-in-out;
+
+                .reply {
+                    font-size: var(--txt-preset-2);
+                    font-weight: bold;
+                }
+
+                &:hover {
+                    color: var(--lightGrayishBlue);
+                }
+            }
+        }
+
+        .comment {
+            color: var(--grayishBlue);
+            font-size: var(--txt-preset-2);
+            line-height: 24px;
+        }
+    }
+}

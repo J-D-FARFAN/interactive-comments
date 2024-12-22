@@ -1,9 +1,16 @@
 import "./App.css";
+import { CardComment } from "./assets/components/CardComment/cardComment";
+import { CardUserComment } from "./assets/components/CardUserComment/cardUserComment";
 
 function App() {
   return (
     <>
-      <h1>Hola mundo</h1>
+      <article className="contentCardComments">
+        <CardComment />
+      </article>
+      <article className="contentCardUserComments">
+        <CardUserComment />
+      </article>
     </>
   );
 }
